@@ -1,0 +1,16 @@
+// Variables live here
+$website-width: 1280px;
+$main-color: #0c80ec;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: url("../img/surf.jpg"); // path is relative to dist folder
+
+// Set Text Color
+@function set-text-color($bg-color) {
+  @if (lightness($bg-color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
