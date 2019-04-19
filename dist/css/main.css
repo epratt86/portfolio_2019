@@ -194,7 +194,8 @@ img {
 .logo {
   display: flex;
   margin-top: 10px;
-  font-size: 1.7rem; }
+  font-size: 1.7rem;
+  text-shadow: 2px 2px 3px #000; }
   .logo .fas {
     color: #0c80ec; }
   .logo .name {
