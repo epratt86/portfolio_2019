@@ -448,8 +448,10 @@ img {
   #header-home {
     height: 30rem;
     width: 100%; }
-    #header-home .header-content h1 {
-      font-size: 2rem; } }
+    #header-home .header-content {
+      height: 20rem; }
+      #header-home .header-content h1 {
+        font-size: 2rem; } }
 
 @media (max-width: 500px) {
   #main-nav {
