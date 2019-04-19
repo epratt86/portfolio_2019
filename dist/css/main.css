@@ -232,7 +232,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.4); }
 
 #header-home {
   position: relative;
@@ -439,7 +439,8 @@ img {
 
 @media (max-width: 800px) {
   #header-home {
-    height: 30rem; }
+    height: 30rem;
+    width: 100%; }
     #header-home .header-content h1 {
       font-size: 2rem; } }
 
@@ -454,6 +455,7 @@ img {
   #header-home {
     position: fixed;
     height: 10rem;
+    width: 100%;
     border-bottom: 3px solid #0c80ec;
     background-position: 20% 35%;
     z-index: 5; }
