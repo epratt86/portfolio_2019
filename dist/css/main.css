@@ -510,7 +510,7 @@ img {
   #contact-c h1 {
     font-size: 2rem; } }
 
-@media (max-height: 580px) {
+@media only screen and (max-height: 580px) and (max-width: 812px) and (orientation: landscape) {
   #header-home .header-content {
     padding-top: 0;
     height: 20rem; }
