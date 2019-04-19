@@ -452,6 +452,8 @@ img {
       font-size: 1.2rem; }
     #main-nav li {
       padding: 1rem; }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2); }
   #header-home {
     position: fixed;
     height: 10rem;
