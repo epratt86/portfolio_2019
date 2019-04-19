@@ -450,7 +450,8 @@ img {
     flex-direction: column;
     align-items: center; }
     #main-nav .logo {
-      font-size: 1.2rem; }
+      font-size: 1.2rem;
+      margin-left: 2rem; }
     #main-nav li {
       padding: 1rem; }
   .overlay {
