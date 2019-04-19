@@ -99,9 +99,13 @@ img {
     color: #fff;
 
     .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 25rem;
       position: relative;
       text-align: center;
-      margin-top: 20%;
 
       h1 {
         font-size: 3rem;
