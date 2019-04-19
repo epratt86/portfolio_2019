@@ -512,6 +512,7 @@ img {
 
 @media (max-height: 580px) {
   #header-home .header-content {
-    padding-top: 3rem; }
+    padding-top: 0;
+    height: 20rem; }
     #header-home .header-content h1 {
       font-size: 2rem; } }
