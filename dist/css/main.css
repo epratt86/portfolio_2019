@@ -414,6 +414,8 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center; }
+  #contact-b .contact-info a {
+    color: #fff; }
 
 #contact-c h1 {
   font-size: 4rem; }
