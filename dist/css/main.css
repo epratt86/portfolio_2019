@@ -471,7 +471,8 @@ img {
     #header-home .header-content {
       display: none; }
   #header-inner {
-    height: 10rem; }
+    height: 10rem;
+    background-position: 20% 12%; }
   #home-a,
   #about-a,
   #work-a,
